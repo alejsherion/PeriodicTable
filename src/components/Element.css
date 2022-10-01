@@ -1,0 +1,32 @@
+.element {
+    background-color: #242424;
+    border: 1px solid #aaa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    cursor: pointer;
+}
+
+.element strong {
+    margin: auto;
+    font-size: 1.5em;
+}
+
+.number {
+    font-size: 8px;
+    position: absolute;
+    top:2px;
+    right: 7px;
+}
+
+.name {
+    font-size: 8px;
+    position: absolute;
+    bottom: 2px;
+}
+
+.element:hover {
+    transform: scale(1.25, 1.25);
+    z-index: 1;
+  }

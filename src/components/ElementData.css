@@ -1,0 +1,60 @@
+.element-data {
+    position: absolute;
+    top: 12%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    width: 400px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.element-category {
+    position: absolute;
+    bottom: 5px;
+    display: flex;
+    justify-content: left;
+}
+
+.square {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+}
+
+.square:after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+}
+
+.element-appearance {
+    position: absolute;
+    bottom: 30px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.element-discoveredby {
+    position: absolute;
+    bottom: 50px;
+}
+
+.reference {
+    position: absolute;
+    top: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.reference strong {
+    font-size: 30px;
+}
+
+.reference span {
+    font-size: 10px;
+    margin-left: 10px;
+}

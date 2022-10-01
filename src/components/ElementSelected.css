@@ -1,0 +1,64 @@
+.element-selected {
+    position: absolute;
+    top: 12%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    border: 1px solid #aaa;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.element-selected>* {
+    cursor: pointer;
+}
+
+.element-selected strong {
+    margin: auto;
+    font-size: 3em;
+}
+
+.selected-number {
+    font-size: 25px;
+    position: absolute;
+    top: 3px;
+    right: 7px;
+}
+
+.selected-name {
+    font-size: 15px;
+    position: absolute;
+    bottom: 30px;
+}
+
+.selected-atomicmass {
+    font-size: 18px;
+    position: absolute;
+    top: 3px;
+    left: 7px;
+}
+
+.selected-electronegativity {
+    font-size: 15px;
+    position: absolute;
+    top: 30px;
+    right: 7px;
+}
+
+.selected-elect-semantic-config {
+    font-size: 12px;
+    position: absolute;
+    bottom: 3px;
+    left: 7px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.selected-ionization {
+    position: absolute;
+    top: 30px;
+    left: 7px;
+}
